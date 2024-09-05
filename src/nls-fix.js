@@ -5,7 +5,7 @@
 /**
  * @type {typeof define}
  */
-const globalDefine = globalThis.define;
+const globalDefine = globalThis.define; // test
 globalDefine('vs/nls.messages-loader', [], function (...args) {
 	return {
 		load: (name, req, load, config) => {
